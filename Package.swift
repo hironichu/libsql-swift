@@ -6,7 +6,9 @@ import PackageDescription
 
 var package = Package(
     name: "Libsql",
-    platforms: [ .iOS(.v12), .macOS(.v10_13) ],
+    platforms: [
+       .macOS(.v13)
+    ],
     products: [
         .library(name: "Libsql", targets: ["Libsql"]),
         
@@ -16,8 +18,19 @@ var package = Package(
         .executable(name: "Batch", targets: ["Batch"]),
     ],
     targets: [
+        // .binaryTarget(name: "CLibsql", path: "Sources/CLibsql/CLibsql.xcframework"),
+        .target(
+            name: "CLibsql",
+            dependencies: [],
+            path: "libsql",
+            publicHeadersPath: "include",
+            linkerSettings: [
+                .linkedLibrary("libsql"),
+                .unsafeFlags(["-L/Sources/CLibsql/libsql-c/target/release/liblibsql.a"])
+            ]
+        ),
+
         .target(name: "Libsql", dependencies: ["CLibsql"]),
-        .binaryTarget(name: "CLibsql", path: "Sources/CLibsql/CLibsql.xcframework"),
         .testTarget(name: "LibsqlTests", dependencies: ["Libsql"]),
        
         // Examples

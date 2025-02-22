@@ -1,0 +1,14 @@
+{
+    "lldb.library": "/home/hiro/.local/share/swiftly/toolchains/6.0.3/usr/lib/liblldb.so",
+    "lldb.launch.expressions": "native",
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "swift.path.shell": "/bin/zsh",
+    "swift.path": "/home/hiro/.local/share/swiftly/toolchains/6.0.3/usr/bin",
+    "files.associations": {
+        "math.h": "c"
+    }
+}

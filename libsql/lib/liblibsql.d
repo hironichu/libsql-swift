@@ -1,0 +1,1 @@
+/home/hiro/Projects/libsql-swift/Sources/CLibsql/libsql-c/target/release/liblibsql.so: /home/hiro/Projects/libsql-swift/Sources/CLibsql/libsql-c/macros/src/lib.rs /home/hiro/Projects/libsql-swift/Sources/CLibsql/libsql-c/src/bindings.rs /home/hiro/Projects/libsql-swift/Sources/CLibsql/libsql-c/src/lib.rs

@@ -1,0 +1,166 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Query",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Query",
+            "preLaunchTask": "swift: Build Debug Query"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Query",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Query",
+            "preLaunchTask": "swift: Build Release Query"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Transaction",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Transaction",
+            "preLaunchTask": "swift: Build Debug Transaction"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Transaction",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Transaction",
+            "preLaunchTask": "swift: Build Release Transaction"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Batch",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Batch",
+            "preLaunchTask": "swift: Build Debug Batch"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Batch",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Batch",
+            "preLaunchTask": "swift: Build Release Batch"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Vector",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Vector",
+            "preLaunchTask": "swift: Build Debug Vector"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Vector",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Vector",
+            "preLaunchTask": "swift: Build Release Vector"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Transactions",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Transactions",
+            "preLaunchTask": "swift: Build Debug Transactions"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Transactions",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Transactions",
+            "preLaunchTask": "swift: Build Release Transactions"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Sync",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Sync",
+            "preLaunchTask": "swift: Build Debug Sync"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Sync",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Sync",
+            "preLaunchTask": "swift: Build Release Sync"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Remote",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Remote",
+            "preLaunchTask": "swift: Build Debug Remote"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Remote",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Remote",
+            "preLaunchTask": "swift: Build Release Remote"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Memory",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Memory",
+            "preLaunchTask": "swift: Build Debug Memory"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Memory",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Memory",
+            "preLaunchTask": "swift: Build Release Memory"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Debug Local",
+            "program": "${workspaceFolder:libsql-swift}/.build/debug/Local",
+            "preLaunchTask": "swift: Build Debug Local"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:libsql-swift}",
+            "name": "Release Local",
+            "program": "${workspaceFolder:libsql-swift}/.build/release/Local",
+            "preLaunchTask": "swift: Build Release Local"
+        }
+    ]
+}
